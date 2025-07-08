@@ -1,0 +1,17 @@
+first in our script has to create directory 
+
+read -p  " enter the directory you wish to use " directory
+read -p " create the file you wish to use " file 
+
+if [ "$directory" ] && [ "$file" ]; then 
+ 
+mkdir -p $directory 
+cd $directory || exit 
+
+touch $file
+
+echo " the file $file is stored in this directory $directory "
+
+fi 
+
+

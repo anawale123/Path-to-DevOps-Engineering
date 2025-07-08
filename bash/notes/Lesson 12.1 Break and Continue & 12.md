@@ -19,6 +19,10 @@ This loop starts from i=0 and will loop until i equals 9.
 If i equals 7, the break statement will execute, and the loop will terminate immediately.
 
 Until i reaches 7, it will print the current value of I.
+
+
+
+
 Lesson 12.2: Continue
 The continue statement in Bash is used to skip the current iteration of a loop and move to the next iteration. Instead of exiting the loop entirely (like break), continue just skips the rest of the code inside the loop for the current iteration.
 

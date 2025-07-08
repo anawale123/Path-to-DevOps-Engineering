@@ -1,0 +1,15 @@
+task 2 
+
+read -p " please enter the file you wish to check" file 
+
+while $file true 
+ do 
+  echo "file exists $file" 
+if [ $file -readable ] && [ $file -executable ];
+
+then 
+  echo " file is exist" 
+
+fi 
+done 
+ 
