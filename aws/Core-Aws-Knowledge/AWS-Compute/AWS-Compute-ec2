@@ -1,44 +1,46 @@
-# Amazon EC2 (Elastic Compute Cloud)
+#  Amazon EC2 (Elastic Compute Cloud)
 
-Amazon EC2 is part of the **Infrastructure as a Service (IaaS)** offerings from AWS. It allows you to rent virtual machines and provides resizable compute capacity in the cloud.
-
----
-
-## Key Capabilities
-
-- **Renting virtual machines (EC2)**
-- **Storing data on virtual drives (EBS)**
-- **Distributing load across machines (ELB)**
-- **Auto-scaling services using ASG (Auto Scaling Groups)**
+Amazon EC2 is part of the **Infrastructure as a Service (IaaS)** offerings from AWS. It allows you to **rent virtual machines (instances)** and provides **resizable compute capacity** in the cloud.
 
 ---
 
-## EC2 Sizing & Configuration Options
+##  Key Capabilities
 
-- **Operating System (OS)**: Linux, Windows, macOS
-- **Compute Power**: CPU cores and speed
-- **Memory (RAM)**: Allocate based on workload
-- **Storage Options**:
-  - Network-attached (EBS, EFS)
-  - Instance store (hardware-based)
-- **Networking**: Network card speed, public IP support
-- **Security**: Security Groups (firewall rules)
-- **EC2 User Data**: Bootstrap scripts to run at first launch
+- 🖥️ **Renting virtual machines (EC2)**
+- 💾 **Storing data on virtual drives (EBS)**
+- 🔁 **Distributing load across machines (ELB)**
+- 📈 **Auto-scaling services using Auto Scaling Groups (ASG)**
 
 ---
 
-## EC2 User Data & Bootstrapping
+## ⚙️ EC2 Sizing & Configuration Options
 
-User Data is a script (typically Bash or PowerShell) that runs at the first boot of an EC2 instance.
+| Option                  | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| **Operating System**    | Linux, Windows, macOS                                                       |
+| **Compute Power (CPU)** | Choose number of cores and speed                                            |
+| **Memory (RAM)**        | Based on application workload                                               |
+| **Storage**             | - Network-attached (EBS, EFS)<br>- Instance store (ephemeral)               |
+| **Networking**          | Network card type, speed, public IP configuration                           |
+| **Security**            | Security Groups (act like a firewall)                                       |
+| **Bootstrap**           | EC2 **User Data** to auto-run scripts during first boot                     |
 
-### Use Cases:
-- Install software (NGINX, MySQL, Node.js)
-- Update packages
-- Configure environment files
-- Start services
-- Pull code from Git or S3
+---
 
-### Example Script:
+## 🛠️ EC2 User Data & Bootstrapping
+
+**User Data** is a startup script (Bash for Linux, PowerShell for Windows) that runs **once on first boot**.
+
+### ✅ Use Cases:
+- 📦 Install software (NGINX, MySQL, Node.js)
+- 🔄 Update packages
+- ⚙️ Configure application files or environments
+- 🔧 Start services
+- ⬇️ Pull source code from GitHub or S3
+
+---
+
+### Example: Apache Web Server Setup
 
 ```bash
 #!/bin/bash
