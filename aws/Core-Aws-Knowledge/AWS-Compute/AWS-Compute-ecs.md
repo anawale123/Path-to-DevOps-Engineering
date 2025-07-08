@@ -1,10 +1,10 @@
-#  Amazon EC2 (Elastic Compute Cloud)
+# Amazon EC2 (Elastic Compute Cloud)
 
 Amazon EC2 is part of the **Infrastructure as a Service (IaaS)** offerings from AWS. It allows you to **rent virtual machines (instances)** and provides **resizable compute capacity** in the cloud.
 
 ---
 
-##  Key Capabilities
+## Key Capabilities
 
 - 🖥️ **Renting virtual machines (EC2)**
 - 💾 **Storing data on virtual drives (EBS)**
@@ -17,13 +17,13 @@ Amazon EC2 is part of the **Infrastructure as a Service (IaaS)** offerings from 
 
 | Option                  | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| **Operating System**    | Linux, Windows, macOS                                                       |
-| **Compute Power (CPU)** | Choose number of cores and speed                                            |
-| **Memory (RAM)**        | Based on application workload                                               |
-| **Storage**             | - Network-attached (EBS, EFS)<br>- Instance store (ephemeral)               |
-| **Networking**          | Network card type, speed, public IP configuration                           |
-| **Security**            | Security Groups (act like a firewall)                                       |
-| **Bootstrap**           | EC2 **User Data** to auto-run scripts during first boot                     |
+| **Operating System**     | Linux, Windows, macOS                                                       |
+| **Compute Power (CPU)**  | Choose number of cores and speed                                            |
+| **Memory (RAM)**         | Based on application workload                                               |
+| **Storage**              | - Network-attached (EBS, EFS)<br>- Instance store (ephemeral)               |
+| **Networking**           | Network card type, speed, public IP configuration                           |
+| **Security**             | Security Groups (act like a firewall)                                       |
+| **Bootstrap**            | EC2 **User Data** to auto-run scripts during first boot                     |
 
 ---
 
