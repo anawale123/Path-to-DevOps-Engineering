@@ -1,8 +1,7 @@
 # AWS
 
 ## Introduction
-
-This thesis reflects my learning journey and understanding of the AWS Architect . Through hands-on practice and real-world examples, I have broken down each concept into digestible parts to gain clarity on the cloud computing principles and how they are applied in AWS.
+Covering AWS core reflects my learning journey and understanding of the AWS Architect . Through hands-on practice and real-world examples, I have broken down each concept into digestible parts to gain clarity on the cloud computing principles and how they are applied in AWS.
 
 ---
 
