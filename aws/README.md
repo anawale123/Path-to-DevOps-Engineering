@@ -1,4 +1,4 @@
-# AWS Certified Solutions Architect - Associate: Personal Learning Thesis
+# AWS
 
 ## Introduction
 
