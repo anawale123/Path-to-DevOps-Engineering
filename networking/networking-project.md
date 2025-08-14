@@ -74,7 +74,7 @@ Separate security groups control traffic:
 - **SSL encryption:** Implemented with **Let’s Encrypt** using Certbot, securing communication on public subnets 
 ```bash
 - **Load Balancing configuration code**
-![NGINX Configuration](networking/assests/nginx.png)
+-(networking/assests/nginx.png)
 
 
   
