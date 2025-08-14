@@ -68,10 +68,16 @@ Separate security groups control traffic:
 ---
 
 ### 4. Reverse Proxy and Load Balancer Configuration
-- **NGINX** installed and configured on the reverse proxy instance  
-- **Load balancing:** Round-robin across backend servers for even traffic distribution  
+- **NGINX** installed and configured on the reverse proxy instance
+- - **Load Balancing configuration:**  
+  The reverse proxy uses **round-robin** to evenly distribute requests across backend servers, cycling through them in order and skipping any that fail health checks.
 - **SSL encryption:** Implemented with **Let’s Encrypt** using Certbot, securing communication on public subnets 
 ```bash
+- **Load Balancing configuration code**
+![NGINX Configuration](networking/assests/nginx.png)
+
+
+  
 
 
 sudo yum install nginx -y
