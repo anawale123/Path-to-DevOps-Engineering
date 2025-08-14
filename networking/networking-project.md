@@ -7,9 +7,10 @@ This project sets up a **high availability web infrastructure** with SSL encrypt
 
 ## Architecture Diagram
 Designing a detailed architecture diagram allowed me to blueprint the infrastructure, making deployment more precise and efficient.  
+<p align="center">
+  <img src="assests/Screenshot%202025-08-09%20025656.png" alt="Screenshot">
+</p>
 
-
----
 
 ## Project Breakdown
 
@@ -69,8 +70,20 @@ Separate security groups control traffic:
 ### 4. Reverse Proxy and Load Balancer Configuration
 - **NGINX** installed and configured on the reverse proxy instance  
 - **Load balancing:** Round-robin across backend servers for even traffic distribution  
-- **SSL encryption:** Implemented with **Let’s Encrypt** using Certbot, securing communication on public subnets  
-
+- **SSL encryption:** Implemented with **Let’s Encrypt** using Certbot, securing communication on public subnets 
 ```bash
+
+
 sudo yum install nginx -y
 sudo certbot --nginx -d app.tm-an-awale.com
+
+<p align="center">
+  <img src="assests/webarchitecture.mp4" alt="Screenshot">
+</p>
+
+
+
+
+
+
+
