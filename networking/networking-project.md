@@ -89,7 +89,7 @@ The **reverse proxy** ensures secure and distributed traffic management:
 The GIF below demonstrates the application in action right after NGINX is configured:  
 
 <p align="center">
-  <img src="networking/assests/webarchitecture.gif" alt="Application Demo GIF" width="700">
+  <img src="networking/assests/webarchitecture.gif" alt="Application Demo GIF" width="500">
 </p>
 
 ---
