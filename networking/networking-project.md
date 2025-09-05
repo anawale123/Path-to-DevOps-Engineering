@@ -80,7 +80,7 @@ The **reverse proxy** ensures secure and distributed traffic management:
 
 #### NGINX Configuration Example  
 <p align="center">
-  <img src="netowrking/assests/nginx.png" alt="NGINX Configuration" width="600">
+  <img src="networking/assests/nginx.png" alt="NGINX Configuration" width="600">
 </p>
 
 #### Example Setup Commands
