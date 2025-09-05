@@ -78,12 +78,23 @@ The **reverse proxy** ensures secure and distributed traffic management:
 - **Load Balancing:** Round-robin strategy for even traffic distribution across backends, with failover handling  
 - **SSL Encryption:** Configured via **Let’s Encrypt (Certbot)** to enforce HTTPS  
 
-#### NGINX Configuration Example  
+#### NGINX Configuration
 <p align="center">
   <img src="networking/assests/nginx.png" alt="NGINX Configuration" width="600">
 </p>
 
-#### Example Setup Commands
+---
+
+### 🎬 Application Demo GIF
+The GIF below demonstrates the application in action right after NGINX is configured:  
+
+<p align="center">
+  <img src="networking/assests/webarchitecture.gif" alt="Application Demo GIF" width="700">
+</p>
+
+---
+
+### Example Setup Commands
 ```bash
 # Install and enable NGINX
 sudo yum install nginx -y
