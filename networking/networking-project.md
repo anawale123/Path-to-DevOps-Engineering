@@ -11,7 +11,7 @@ The entire system is deployed on **AWS** and demonstrates practical cloud networ
 A detailed architecture diagram was designed to blueprint the infrastructure, ensuring precision during deployment.  
 
 <p align="center">
-  <img src="assests/Screenshot%202025-08-09%20025656.png" alt="Architecture Diagram">
+  <img src="assets/Screenshot%202025-08-09%20025656.png" alt="Architecture Diagram">
 </p>
 
 ---
@@ -80,16 +80,21 @@ The **reverse proxy** ensures secure and distributed traffic management:
 
 #### NGINX Configuration
 <p align="center">
-  <img src="networking/assests/nginx.png" alt="NGINX Configuration" width="600">
+  <img src="networking/assets/nginx.png" alt="NGINX Configuration" width="600">
 </p>
 
 ---
 
-### 🎬 Application Demo GIF
-The GIF below demonstrates the application in action right after NGINX is configured:  
+### 🎬 Application Demo
+
+The following demonstration showcases the deployed application in a real-world scenario:  
+
+- The **reverse proxy** at [app.tm-an-awale.com](https://app.tm-an-awale.com) distributes incoming traffic efficiently across multiple backend servers.  
+- The **status page** at [status.tm-an-awale.com](https://status.tm-an-awale.com) provides real-time monitoring of backend server health.  
+- All traffic is encrypted using **HTTPS**, ensuring secure communication between clients and servers.  
 
 <p align="center">
-  <img src="networking/assests/webarchitecture.gif" alt="Application Demo GIF" width="500">
+  <img src="networking/assets/webarchitecture.gif" alt="Application Demo GIF" width="500">
 </p>
 
 ---
