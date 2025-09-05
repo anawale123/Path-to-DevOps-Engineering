@@ -94,7 +94,7 @@ The following demonstration showcases deployment:
 - All traffic is encrypted using **HTTPS**, ensuring secure communication between clients and servers.  
 
 <p align="center">
-  <img src="assests/webarchitecture.gif" alt="Application Demo GIF" width="500">
+  <img src="assests/webarchitecture.gif" alt="Application Demo GIF" width="600">
 </p>
 
 ---
