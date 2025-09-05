@@ -91,7 +91,7 @@ The following demonstration showcases deployment:
 
 - The **reverse proxy** at [app.tm-an-awale.com](https://app.tm-an-awale.com) distributes incoming traffic efficiently across multiple backend servers.  
 - The **status page** at [status.tm-an-awale.com](https://status.tm-an-awale.com) provides real-time monitoring of backend server health.  
-- All traffic is encrypted using **HTTPS**, ensuring secure communication between clients and servers.  
+- All traffic is encrypted using **HTTPS** which ensures secure communication between clients and servers.  
 
 <p align="center">
   <img src="assests/webarchitecture.gif" alt="Application Demo GIF" width="600">
