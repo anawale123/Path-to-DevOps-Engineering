@@ -80,7 +80,7 @@ The **reverse proxy** ensures secure and distributed traffic management:
 
 #### NGINX Configuration
 <p align="center">
-  <img src="networking/assests/nginx.png" alt="NGINX Configuration" width="600">
+  <img src="assests/nginx.png" alt="NGINX Configuration" width="600">
 </p>
 
 ---
@@ -94,7 +94,7 @@ The following demonstration showcases deployment:
 - All traffic is encrypted using **HTTPS**, ensuring secure communication between clients and servers.  
 
 <p align="center">
-  <img src="networking/assests/webarchitecture.gif" alt="Application Demo GIF" width="500">
+  <img src="assests/webarchitecture.gif" alt="Application Demo GIF" width="500">
 </p>
 
 ---
