@@ -2,7 +2,7 @@
 
 ## What are Provisioners?
 
-Provisioners in Terraform allow you to **run scripts or commands on resources after they are created**. They are typically used for:
+Provisioners in Terraform allow you to run scripts or commands on resources after they are created. They are typically used for:
 
 - Bootstrapping instances (installing software, copying files).
 - Performing configuration tasks that Terraform alone cannot do.
