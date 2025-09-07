@@ -1,6 +1,6 @@
 # Docker Compose   
 
-Docker Compose is a tool used to **define and manage multi-container Docker applications**. Instead of running multiple `docker run` commands manually, you define your app’s **services, networks, and volumes** in a `docker-compose.yml` file. This file acts like a **blueprint**, specifying:  
+Docker Compose is a tool used to define and manage multi-container Docker applications. Instead of running multiple `docker run` commands manually, you define your app’s services, networks, and volumes in a `docker-compose.yml` file. This file acts like a blueprint, specifying:  
 
 - Which **images** to use  
 - Which **ports** to expose  
