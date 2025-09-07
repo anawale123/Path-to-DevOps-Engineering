@@ -2,8 +2,8 @@
 
 ## What are Workspaces?
 
-Terraform Workspaces allow you to **manage multiple instances of the same infrastructure** within a single Terraform configuration.  
-Each workspace maintains its **own state file**, making it easy to manage different environments such as:
+Terraform Workspaces allow you to manage multiple instances of the same infrastructure within a single Terraform configuration.  
+Each workspace maintains its own state file, making it easy to manage different environments such as:
 
 - `dev`
 - `staging`
@@ -13,9 +13,9 @@ Each workspace maintains its **own state file**, making it easy to manage differ
 
 ## Why Use Workspaces?
 
-- Keep **environments isolated** while reusing the same Terraform code.
-- Avoid **duplicate configuration files** for each environment.
-- Easily **switch between environments**.
+- Keep environments isolated while reusing the same Terraform code.
+- Avoid duplicate configuration files for each environment.
+- Easily switch between environments.
 
 ---
 
