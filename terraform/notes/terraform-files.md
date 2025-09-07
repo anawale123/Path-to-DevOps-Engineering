@@ -14,7 +14,7 @@ Terraform lets you define and manage infrastructure as code. Two core concepts a
 
 ## Terraform State File
 
-The **state file** (`terraform.tfstate`) is a record of the **infrastructure that has already been built**. It keeps track of resource information and ensures **idempotency**, which means:
+The **state file** (`terraform.tfstate`) is a record of the infrastructure that has already been built. It keeps track of resource information and ensures idempotency, which means:
 
 - When you run Terraform multiple times with the same configuration:  
   - It **only applies new changes or additions**.  
@@ -34,10 +34,10 @@ When you run `terraform apply`, Terraform:
 1. Reads the **current state** from the state file.  
 2. Reads the **desired state** from your configuration files.  
 3. Compares the two to find differences.  
-4. Creates or updates resources as needed and updates the **state file** to reflect the actual deployed resources.
+4. Creates or updates resources as needed and updates the *state file to reflect the actual deployed resources.
 
-Terraform **does not add your configuration directly to the state file**. It uses the config to create or update resources and then updates the state file to reflect what was actually deployed or changed.
+Terraform does not add your configuration directly to the state file. It uses the config to create or update resources and then updates the state file to reflect what was actually deployed or changed.
 
 ---
 
-Terraform files and the state file together ensure your infrastructure is **declarative, predictable, and safe to manage repeatedly**.
+Terraform files and the state file together ensure your infrastructure is **declarative, predictable, and safe to manage repeatedly.
